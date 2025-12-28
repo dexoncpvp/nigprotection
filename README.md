@@ -1,26 +1,26 @@
-# 🛡️ NigProt Obfuscator
+# NigProt Obfuscator
 
 **Professional Java Obfuscation for Maximum Protection**
 
-## 🎯 What is NigProt?
+## What is NigProt?
 
 NigProt is a state-of-the-art Java obfuscator that protects your code from:
-- 🔓 Decompilers (CFR, Fernflower, Procyon)
-- ✏️ Bytecode editors (Recaf)
-- 🔍 String analysis
-- 🐛 Debugging
+- Decompilers (CFR, Fernflower, Procyon)
+- Bytecode editors (Recaf)
+- String analysis
+- Debugging
 
-## 🚀 Features
+## Features
 
 | Feature | Description |
 |---------|-------------|
-| **Name Obfuscation** | Classes, methods renamed to `ӀОl`, `о0I` |
+| **Name Obfuscation** | Classes, methods renamed to unreadable characters |
 | **ZKM-Style String Encryption** | Multi-layer encryption |
 | **InvokeDynamic** | Hidden method calls |
 | **Native Transpilation** | Convert to C code (JNIC-style) |
 | **Watermark** | ASCII art branding |
 
-## 📦 Demo
+## Demo
 
 This repository contains a before/after comparison:
 
@@ -32,25 +32,25 @@ demo/
 
 ### Run the games:
 ```bash
-java -jar demo/snakegame-original.jar
-java -jar demo/snakegame-obfuscated.jar
+java -jar snakegame-original.jar
+java -jar snakegame-obfuscated.jar
 ```
 
-Both work identically - but try decompiling them! 👀
+Both work identically - but try decompiling them!
 
-## 📊 Obfuscation Stats
+## Obfuscation Stats
 
 ```
 ╔══════════════════════════════════════════╗
 ║              OBFUSCATION STATS           ║
 ╠══════════════════════════════════════════╣
-║  Classes obfuscated:         7            ║
+║  Classes obfuscated:         6            ║
 ║  Methods obfuscated:         4            ║
-║  Strings encrypted:          3            ║
+║  Strings encrypted:          2            ║
 ╚══════════════════════════════════════════╝
 ```
 
-## 🔥 Before vs After
+## Before vs After
 
 ### Before (Original)
 ```java
@@ -65,11 +65,10 @@ public class SnakeGame {
 
 ### After (Obfuscated)
 ```java
-public class ӀОl {
-    private int о0l = 0;
+public class l {
+    private int o = 0;
     
-    public void Оo1() {
-        /* ZKM-encrypted string */
+    public void O() {
         System.out.println(new StringBuilder()
             .append((char)(42^97^13))
             .append((char)(55^103^26))
@@ -78,15 +77,10 @@ public class ӀОl {
 }
 ```
 
-## 💰 Pricing
+## Contact
 
-Contact for enterprise licensing.
-
-## 📧 Contact
-
-- Discord: `dexon.cpvp`
 - GitHub: [@dexoncpvp](https://github.com/dexoncpvp)
 
 ---
 
-**© 2024 NigProt - Your Code, Protected.**
+**2026 NigProt - Your Code, Protected.**
